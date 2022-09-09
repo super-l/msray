@@ -1,4 +1,4 @@
-# 中秋特贡 [免费版] 将于2022-09-10日发布
+# 中秋特贡 [免费版] 将于近日发布(目前处于测试中)
 
 ## 一、MSRAY简介
 
@@ -6,12 +6,22 @@ Msray，可根据指定的关键词，自动从多个搜索引擎获取搜索结
 
 不仅仅是url采集！支持存储域名、网址(url)、标题、描述、结果来源的搜索引擎名称、IP地址、服务器所属国家等多种信息！
 
-msray是从msray-plus商业版中提取出来的精简版本,可免费使用无功能限制。喜欢的给个赞(start)哦！
+msray是从msray-plus商业版中提取出来的精简版本,可免费使用无功能限制。
+
+喜欢的给个赞(start)哦！点赞是分享的动力。
+
+
 
 
 ## 二、运行效果
 
+### 0. 运行效果
+
+![msray](resource/msray.png)
+
+
 ### 1. 谷歌引擎(google)
+
 ![google](resource/google.png)
 
 
@@ -20,11 +30,11 @@ msray是从msray-plus商业版中提取出来的精简版本,可免费使用无�
 
 
 ### 3. 必应引擎(bning)
-![qwant](resource/qwant.png)
+![qwant](resource/bing.png)
 
 
 ### 4. 俄罗斯引擎(yandex)
-![qwant](resource/qwant.png)
+![yandex](resource/yandex.png)
 
 
 
@@ -128,10 +138,10 @@ proxy:
 ## 六、 运行说明
 
 ```
-mstay.exe search -k 关键词
+msray.exe search -k 关键词
 
 如：
-mstay.exe search -k msray
+msray.exe search -k msray
 ```
 
 采集完成后, 会在result目录下生成结果文件(每个关键词单独一个文件), 一行一个采集结果。
@@ -139,16 +149,20 @@ mstay.exe search -k msray
 注意：重复关键词采集，会自动清空上次采集的内容；
 
 
+
+
 ## 七、 技巧分享
 
 借助webhook功能，你可以实现很多拓展与自定义功能哦！比如自动把搜索结果中的网站域名，存储到自己的数据库，又或者联动fofa、xray、goby、nessus等等软件实现安全漏扫扫描与检查。
+
+
 
 
 ## 八、 技术交流与探讨、资料分享
 
 网络安全技术交流群(QQ)：50246933
 
-网络安全技术交流群交流群(Telegram)： https://t.me/+dv-bDja-9txkODFl
+网络安全技术交流群交流群(Telegram)： https://t.me/sec_nst
 
 
 
@@ -158,7 +172,6 @@ mstay.exe search -k msray
 不接定制开发，时间精力有限。
 
 如需更多功能请查看商业版本(Msray-Plus) 商业版在线文档：http://www.msray.net/doc
-
 
 
 
