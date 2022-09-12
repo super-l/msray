@@ -1,4 +1,4 @@
-# 中秋特贡 [免费版]
+# 中秋特贡
 
 
 以前发布了基于python的开源版本，名字叫[superl-url](https://github.com/super-l/superl-url)，被很多平台和小伙伴转载发布，但是后期实在是没时间维护，升级的事情一直搁置了。 
