@@ -1,5 +1,12 @@
 # 中秋特贡 [免费版]
 
+
+以前发布了基于python的开源版本，名字叫[superl-url](https://github.com/super-l/superl-url)，被很多平台和小伙伴转载发布，但是后期实在是没时间维护，升级的事情一直搁置了。 
+
+时隔四五年，这次使用GO语言重新设计与开发了，彻底摆脱python环境与依赖问题。
+
+
+
 ## 一、MSRAY简介
 
 Msray，可根据指定的关键词，自动从多个搜索引擎获取搜索结果数据(并发), 并且支持自动去重复、自定义代理、webhook推送等。
@@ -9,7 +16,6 @@ Msray，可根据指定的关键词，自动从多个搜索引擎获取搜索结
 msray是从msray-plus商业版中提取出来的精简版本,可免费使用无功能限制。
 
 喜欢的给个赞(start)哦！点赞是分享的动力。
-
 
 
 
@@ -154,7 +160,7 @@ msray.exe search -k msray
 ## 七、下载地址
 
 
-查看项目的release
+查看项目的release: https://github.com/super-l/msray/releases/
 
 
 
