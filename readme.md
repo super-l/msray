@@ -154,7 +154,7 @@ msray.exe search -k msray
 ## 七、下载地址
 
 
-查看项目的release目录。分别提供windows\linux\mac版本下载。
+查看项目的release
 
 
 
