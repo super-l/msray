@@ -182,7 +182,7 @@ msray.exe search -k msray
 
 网络安全技术交流群交流群(Telegram)： https://t.me/sec_nst
 
-如果发现BUG，可以提交issus或者群内叫我，修复速度贼快。
+如果发现BUG，可以提交issues或者群内叫我，修复速度贼快。
 
 
 
