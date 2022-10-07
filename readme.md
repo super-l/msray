@@ -68,7 +68,7 @@ msray是从msray-plus商业版中提取出来的搜索引擎模块的精简版�
 
 
 ### 5. 搜狗引擎(yandex)
-![yandex](resource/sogou.png)
+![sogou](resource/sogou.jpg)
 
 
 
