@@ -118,7 +118,6 @@ engine:	 # 搜索引擎配置  比如：bing=必应
     page: 8
     language:
     timeout: 10
-    token: AB1-RNWjeJzLuTALlFyb8TyyKQZV:1662965962939
   baidu:
     status: false
     delay: 1
@@ -134,13 +133,10 @@ proxy:
   status: true           # 是否启动代理功能
   local:
     path: data/proxy.txt  # 文件路径
-    isCommon: 1           # 线路类型 国外线路=1 国内线路2
   api:
     url:                  # 访问地址
     intervalTime: 10      # 自动更新时间(秒)
     protocolType: http    # 协议类型,如http/socks4
-    isCommon: 1           # 线路类型 国外线路=1 国内线路2
-
 
 ```
 
@@ -159,8 +155,47 @@ msray.exe search -k msray
 每次采集的结果文件路径，都会在命令行任务执行完成后显示!(文件名是采用当前时间戳)
 
 
+## 七、关于代理配置说明
 
-## 七、下载地址
+### 1. 本地txt代理
+
+本地代理数据文件默认路径为：data/proxy.txt
+如果需要使用到代理，则把有效的代理数据，按行粘贴到该文件中即可！注意，需要带上代理协议，如果不指定代理协议，则自动添加http协议。
+
+正确格式如： 
+```
+sock4://x.x.x.x:22222
+sock5://x.x.x.x:1111
+http://x.x.x.x:8888
+```
+
+注意：
+
+```
+x.x.x.x:8888  等于 http://x.x.x.x:8888
+```
+
+
+### 2. 代理API接口
+
+有些小伙伴购买的有代理接口，则可以把接口地址复制，粘贴设置到config.yaml的proxy.api.url节点。
+
+```
+
+接口返回数据内容，一般是按行显示代理数据。 格式如：
+
+x.x.x.x:1888
+x.x.x.x:2888
+x.x.x.x:3888
+
+
+一般不带有协议名，所以需要同时配置proxy.api.protocolType参数的类型。
+
+如果返回的数据中，带有协议名，程序也会智能判断，优先使用。对于存在协议名的数据，不会使用proxy.api.protocolType参数的配置值。
+```
+
+
+## 八、下载地址
 
 
 查看项目的release: https://github.com/super-l/msray/releases/
@@ -171,7 +206,7 @@ msray.exe search -k msray
 
 
 
-## 八、 技巧分享
+## 九、 技巧分享
 
 借助webhook功能，你可以实现很多拓展与自定义功能哦！
 
@@ -180,7 +215,7 @@ msray.exe search -k msray
 
 
 
-## 九、 技术交流与探讨、资料分享
+## 十、 技术交流与探讨、资料分享
 
 
 网络安全技术交流群(QQ)：50246933
@@ -191,8 +226,10 @@ msray.exe search -k msray
 
 
 
-## 十、 其他
+## 十一、 其他
 
 不接定制开发，时间精力有限。
+
+我们不卖代理，也没有代理数据卖，需要用户自行寻找。
 
 如需更多功能请查看商业版本(Msray-Plus) 商业版在线文档：http://www.msray.net/doc
